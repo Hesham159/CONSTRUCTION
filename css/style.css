@@ -1,0 +1,973 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* Root */
+html{
+    font-size: 16px;
+}
+/* Phone Container */
+.container{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+    /*       [Start Header]    */
+#mainheader{
+    background-color:#FFCB0F ;
+}
+#mainheader .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0 5px 0;
+}
+#mainheader .container>p{
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+#mainheader .container>p i{
+    margin-right: 5px;
+    font-size: 1.1rem;
+}
+#mainheader .container>p:last-of-type{
+    
+    flex-grow: 1;
+    text-align: center;
+}
+#mainheader .container .right i{
+    color: black;
+    margin: 0 5px;
+    font-size: 1.2rem;
+}
+#mainheader .container .right i:hover{
+    color: navy;
+}
+#mainheader .container .right{
+    width: 100%;
+    text-align: center;
+}
+     /*      [End Header]        */
+/* ----------------------------------- */
+
+
+
+        /* [ Start Nav ] */
+#mainnav {
+    background-color: #222533;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+#mainnav .container {
+    padding: 15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+input[type ="checkbox"]{
+    display: none;
+}
+#mainnav .container .logo h2 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    font-style: italic;
+}
+#mainnav .container .logo h2 span{
+    color:#FFCB0F;
+}
+#mainnav .container .logo p{
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+#mainnav .container label i{
+    font-size: 1.2rem;
+    padding: 5px;
+    cursor: pointer;
+}
+#mainnav .container label i:hover{
+    color: #111111;
+    border: thin dashed #111111;
+}
+#mainnav .container .links {
+    width: 100%;
+    display: none;
+
+}
+#mainnav .container .links a{
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    margin-bottom: 4px;
+    text-align: center;
+    padding: 10px;
+    border-bottom: thin solid ;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#mainnav .container .links a:hover{
+    background-color:#111111;
+}
+#mainnav .container .links a:last-of-type{
+    border-bottom: 0;
+    color:#d6b746 ;
+}
+#mainnav .container .links a:last-of-type:hover{
+    color: #fac400;
+}
+#menu:checked+.links{
+    display: block;
+}
+        /*[ End Nav ]*/
+/* ---------------------------- */
+
+
+
+        /*  [ Start sec-1 ]  */
+#sec-1{
+    background: 
+    linear-gradient(  rgba(58, 58, 58, 0.582), rgba(61, 60, 60, 0.562)),
+    url(../image/banner.jpg) no-repeat  center center/cover  ;
+}
+#sec-1 .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+#sec-1 .container div{
+    text-align: center;
+    /* width: 100%; */
+}
+#sec-1 .container div>h4{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 150;
+    margin-bottom: 15px;
+}
+#sec-1 .container div>h2{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    font-weight: 750;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+#sec-1 .container div>h2 span{
+    display: block;
+    color: #fac400;
+    margin-bottom: 15px;
+
+}
+#sec-1 .container div>p{
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+#sec-1 .container div>a{
+    color: #fac400;
+    border: thin solid #FFCB0F;
+    padding: 15px 20px;
+    background-color: #000000;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#sec-1 .container div>a:hover{
+    background-color: #fac400;
+    color: #111111;
+    border: thin solid #111111;
+}
+        /*  [ End sec-1 ]  */
+/* ---------------------------- */
+
+
+
+
+        /*  [ Start sec-2 ]  */
+        
+        #sec-2 .container{
+            padding: 30px 0;
+        }
+        #sec-2 .container h2{
+            font-size: 2rem;
+            font-family: sans-serif;
+            font-weight: 800;
+            color: #fac400;
+            margin-bottom: 10px;
+        }
+        #sec-2 .container h3{
+            font-family: sans-serif;
+            margin-bottom: 20px;
+        }
+        #sec-2 .container p{
+            font-family: sans-serif;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        #sec-2 .container  img{
+            width: 100%;
+        }
+        #sec-2 .container a{
+            text-decoration: none;
+            display: inline-block;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            background-color: #FFCB0F;
+            padding: 10px 15px;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+            color: white;
+            font-weight:700;
+            margin-bottom: 20px;
+}
+        /*  [ End sec-2 ]  */
+        /* --------------------------------------------------- */
+
+
+
+        /*  [ Start sec-3 ]  */
+        #sec-3{ 
+            background: linear-gradient(rgba(17, 17, 17, 0.582), rgba(27, 26, 26, 0.308)),
+            url(../image/bg4.jpg) no-repeat center right / cover
+            ;
+           
+        }
+        #sec-3 .container {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        #sec-3 .container h2{
+            font-family: sans-serif;
+            text-transform: uppercase;
+            color: #fac400;
+            margin-bottom: 20px;
+        }
+        #sec-3 .container>p{
+            color: white;
+            font-family: sans-serif;
+            margin-bottom: 100px;
+            
+        }
+       
+        #sec-3 .container .card{
+           background-color: #19171481;
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           position: relative;
+           padding: 20px;
+           margin-bottom: 100px;
+           border-radius: 10px;
+           -webkit-border-radius: 10px;
+           -moz-border-radius: 10px;
+           -ms-border-radius: 10px;
+           -o-border-radius: 10px;
+}
+        #sec-3 .container .card h3{
+            margin-top: -50px;
+            font-family: sans-serif;
+            color: #FFCB0F;
+            text-transform: uppercase;
+            font-weight: 800;
+            margin-bottom: 20px;
+            
+        }
+        #sec-3 .container .card p{
+            font-family: sans-serif;
+            color: white;    
+        margin-bottom: 10px;    }
+        #sec-3 .container .card .img-div{
+            width: 100px;
+            height: 100px;
+            display: block;
+            background-color: #FFCB0F;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transform: translate(0 , -70px);
+            -webkit-transform: translate(0 , -70px);
+            -moz-transform: translate(0 , -70px);
+            -ms-transform: translate(0 , -70px);
+            -o-transform: translate(0 , -70px);
+}
+        /*  [ End sec-3 ]  */
+        /* --------------------------------------------------- */
+
+
+
+        /*  [ Start sec-4 ]  */
+        #sec-4 .container>h2{
+            text-align: center;
+            margin:  40px 0;
+            font-size: 2rem;
+            font-family: sans-serif;
+            text-transform: uppercase;
+            font-weight: 800;
+        }
+        #sec-4 .container .cards2{
+            margin-bottom: 50px;
+        }
+        #sec-4 .container .cards2 figure{
+            margin-bottom: 50px;
+        }
+        #sec-4 .container .cards2 figure>div{
+            background: url(../image/card1.jpg) no-repeat center /cover;
+            height: 300px;
+            position: relative;
+            margin-bottom: 15px;
+        }
+        #sec-4 .container .cards2 figure .d2{
+            background: url(../image/card2.jpg) no-repeat center /cover;
+            
+        }
+        #sec-4 .container .cards2 figure .d3{
+            background: url(../image/card3.jpg) no-repeat center /cover;
+            
+        }
+        #sec-4 .container .cards2 figure>div h2{
+            color: white;
+            text-align: center;
+            background-color:#00000098;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding: 20px 0;
+        }
+        #sec-4 .container  figure figcaption a{
+          text-decoration: none;
+          display: inline-block;
+          font-family: sans-serif;
+          text-transform: uppercase;
+          padding: 10px 15px;
+          color: white;
+          background-color: #FFCB0F;
+          border-radius: 10px;
+          -webkit-border-radius: 10px;
+          -moz-border-radius: 10px;
+          -ms-border-radius: 10px;
+          -o-border-radius: 10px;
+          margin-top: 20px;
+}
+        /*  [ End sec-4 ]  */
+/* --------------------------------------------------- */
+
+
+
+        /*  [ Start sec-5 ]  */
+#sec-5{
+    background: linear-gradient(rgba(17, 17, 17, 0.582), rgba(27, 26, 26, 0.308)),
+    url(../image/bg2.jpg) ;
+}
+#sec-5 .container {
+    text-align: center;
+    padding: 30px 0;
+}
+#sec-5 .container h2{
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+#sec-5 .container p{
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+#sec-5 .container ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+#sec-5 .container ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 8px;
+    margin-right: 5px;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+}
+#sec-5 .container ul li a:hover , #sec-5 .container ul li .active{
+    background-color: #282828;
+}
+#sec-5 .container .all img{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 2px;
+    border: thin dashed gray;
+    box-shadow: 5px 2px 5px 2px rgb(51, 49, 49);
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+#sec-5 .container .all img:hover{
+    transform: translate(5px , -5px);
+    -webkit-transform: translate(5px , -5px);
+    -moz-transform: translate(5px , -5px);
+    -ms-transform: translate(5px , -5px);
+    -o-transform: translate(5px , -5px);
+}
+        /*  [ End sec-5 ]  */
+/* --------------------------------------------------- */
+
+
+
+        /*  [ Start sec-6 ]  */
+    #sec-6{
+        background: url(../image/bg3.jpg);
+    }
+    #sec-6 .container{
+        padding: 30px 0 0;
+        text-align: center;
+    }
+    #sec-6 .container h2{
+        font-family: sans-serif;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-bottom: 30px;
+    }
+    #sec-6 .container p{
+        font-family: sans-serif;
+        margin-bottom: 30px;
+    }
+    #sec-6 .container .cardss{
+        margin-bottom: 30px;
+    }
+    #sec-6 .container .cardss:nth-of-type(2) div{
+        background-color: #FFCB0F;
+    }
+    #sec-6 .container .cardss>div{
+        background-color: #E5E5E5;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    #sec-6 .container .cardss>div img:first-of-type{
+            width: 10%;
+             margin-right: 5px;
+            align-self: flex-start;
+    }
+    #sec-6 .container .cardss>div img:last-of-type{
+        padding: 2px;
+        transform: translate(192px  , 30px);
+        -webkit-transform: translate(192px  , 30px);
+        -moz-transform: translate(192px  , 30px);
+        -ms-transform: translate(192px  , 30px);
+        -o-transform: translate(192px  , 30px);
+}
+    #sec-6 .container .cardss>div p{
+        text-align: justify;
+        font-family: sans-serif;
+        width: 88%;
+    }
+    #sec-6 .container .cardss article{
+        margin-top: 10px;
+    }
+    #sec-6 .container .cardss article img{
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+}
+#sec-6 .container .cardss article h3{
+    font-family: sans-serif;
+    text-transform:capitalize;
+    font-variant: small-caps;
+}
+#sec--6{
+    background-color: #f7c2009c;
+
+}
+#sec--6 .container footer{
+    color: #73757E;
+    padding: 15px ;
+}
+#sec--6 .container footer div>h2{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+#sec--6 .container footer div>h3{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 30px;
+
+}
+#sec--6 form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+#sec--6 .container footer form input{
+    width: 48%;
+    padding: 15px 10px;
+    margin-bottom:10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#sec--6 .container footer form input:nth-of-type(3){
+    flex-grow: 1;
+    margin-right: 10px;
+}
+#sec--6 .container footer form input:last-of-type{
+    width: 25%;
+    background-color: #73757E;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#sec-66{
+    background-color: #5D6167;
+    height: 50px;
+}
+        /*  [ End sec-6 ]  */
+        /* --------------------------------------------------- */
+
+
+
+        /*  [ Start sec-7 ]  */
+#sec-7{
+    background: linear-gradient(rgba(0, 0, 0, 0.712) , rgba(0, 0, 0, 0.76)),
+    url(../image/bg5.jpg)no-repeat center center / cover;
+}
+#sec-7 .container{
+    padding: 70px 0;
+}
+#sec-7 .container div{
+    margin-bottom: 40px;
+}
+#sec-7 .container div>h4{
+    color: white;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+#sec-7 .container div>h2{
+    color:#fac400;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-style: italic;
+}
+#sec-7 .container div>h5{
+    color:gray;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+#sec-7 .container div>p{
+    color: white;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-left: 30px;
+}
+#sec-7 .container div>p:hover{
+    cursor: pointer;
+    color: gray;
+}
+#sec-7 .container div>ul{
+    list-style: none;
+    display: flex;
+    margin-left: 30px;
+
+    
+}
+#sec-7 .container div>ul a{
+    display: inline-block;
+    text-decoration: none;
+    color:#1d1f22;
+    background-color: #fac400;
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec-7 .container div>ul a:hover{
+    background-color: #d6b746;
+}
+#sec-7 .container div>p i{
+    margin-right: 15px;
+}
+        /*  [ End sec-7 ]  */
+/* ---------------------------- */
+
+
+        /*  [ Start footer ]  */
+
+#mainfooter{
+    padding: 20px 0;
+    background-color: #1A1C27;
+    text-align: center;
+}
+#mainfooter p{
+    color: #ebb905;
+    font-family: sans-serif;
+}
+#mainfooter p span{
+    color: white;
+}
+        
+ /*  [ End footer ]  */
+/* ---------------------------- */    
+#sec-2 ,#sec-3,#sec-4,#sec-5,#mainfooter{
+    scroll-margin-block-start: 86px;
+}
+
+/* Small devices (landscape phone */
+@media (min-width:576px){
+    #mainheader .container p:last-of-type{
+        flex-grow: 0;
+    }
+    #sec-6 .container .cardss>div img:last-of-type{
+        padding: 2px;
+        transform: translate(322px , 30px);
+        -webkit-transform: translate(322px , 30px);
+        -moz-transform: translate(322px , 30px);
+        -ms-transform: translate(322px , 30px);
+        -o-transform: translate(322px , 30px);
+}
+}
+/* Medium devices (Tablets) */
+
+@media (min-width:768px){
+   .container{ width: 720px;
+    margin-left: auto;
+    margin-right: auto;}
+        /*  [ Start sec-2 ]  */
+
+        #sec-2 .container {
+            position: relative;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+           
+        }
+        #sec-2 .container .info{
+            width: 60%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding:50px 0;
+        }
+        #sec-2 .container .info h2{
+            font-size: 1.8rem;
+        }
+        #sec-2 .container  img{
+            width: 40%;
+        }
+        /*  [ End sec-2 ]  */
+
+        /*  [ Start sec-4 ]  */
+        #sec-4 .container figure {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        #sec-4 .container figure figcaption{
+            width: 58%;
+           
+        }
+     
+        #sec-4 .container figure>div{
+            width: 40%;
+            
+        }
+        /*  [ End sec-4 ]  */
+        /*  [ Start sec-5 ]  */
+        #sec-5 .container .all {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #sec-5 .container .all img{
+            width: 48%;
+            display: block;
+        }
+        #sec-5 .container .all img:first-of-type{
+            width: 48%;
+            /* margin: 0 auto; */
+        }
+        #sec-5 .container .all .right{
+            width: 50%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        /*  [ End sec-5 ]  */
+        /*  [ Start sec-6 ]  */
+        #sec-6 .container .cardss>div img:last-of-type{
+            padding: 2px;
+            transform: translate(325px , 30px);
+            -webkit-transform: translate(325px , 30px);
+            -moz-transform: translate(325px , 30px);
+            -ms-transform: translate(325px , 30px);
+            -o-transform: translate(325px , 30px);
+}
+        /*  [ End sec-6 ]  */
+        /*  [ Start sec-7 ]  */
+        #sec-7 .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+        #sec-7 .container>div{
+    width: 47%;
+}
+        /*  [ End sec-6 ]  */
+    
+
+}
+
+/* Large devices (Labtop )*/
+
+@media (min-width:992px){
+    .container{ width: 920px;}
+            /* Header  */
+    #mainheader .container{
+        padding: 10px 0 5px 0;
+        flex-wrap: nowrap;
+    }
+    #mainheader .container >p{
+        margin-right: 20px;
+    }
+    #mainheader .container .right{
+        width: auto;
+        flex-grow: 1;
+        text-align: right;
+    }
+         /* End Header  */
+         /* Nav  */
+    #mainnav .container>label{
+        display: none;
+    }
+    #mainnav .container .links{
+        display: block;
+        width: auto;
+    }
+    #mainnav .container .links a{
+        display: inline-block;
+        margin-left: 10px;
+        border: 0;
+    }
+    #mainnav .container .links a:hover{
+        color: #fac400;
+        background-color: transparent;
+    }
+        /* End Nav  */
+
+        /* Start Sec-1 */
+    #sec-1 .container>div{
+        width: 70%;
+        margin-bottom: 50px;
+        
+    }
+    #sec-1 .container div h4{
+        margin-top: 50px;
+    }
+    #sec-1 .container div h2{
+        font-size: 3.1rem;
+    }
+    
+    #sec-1 .container div h2 span{
+        font-weight: 750;
+    }
+        /* End Sec-1  */
+
+        /* Start Sec-2 */
+    #sec-2 .container {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0;
+    }
+    #sec-2 .container .info{
+    width: 50%;
+    }
+    #sec-2 .container>.image-div{
+        width:40%;
+    }
+    #sec-2 .container>.image-div img{
+        width: 100%;
+    }
+        /* End Sec-2  */
+        /* Start Sec-3 */
+        #sec-3 .container .cards{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        #sec-3 .container .card{
+            width: 48%;
+        }
+
+        /* End Sec-3  */
+        /* Start Sec-4 */
+        #sec-4 .container .cards2 {
+            display: flex;
+            justify-content: space-between;
+
+        }
+        #sec-4 .container figure {
+            width: 32%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        #sec-4 .container figure>div{
+            width: 100%;
+        }
+        #sec-4 .container figure figcaption{
+            width: 100%;
+        }
+        /* End Sec-4  */
+        
+        #sec-6 .container .cardss>div img:last-of-type{
+            padding: 2px;
+            transform: translate(111px , 30px);
+            -webkit-transform: translate(111px , 30px);
+            -moz-transform: translate(111px , 30px);
+            -ms-transform: translate(111px , 30px);
+            -o-transform: translate(111px , 30px);
+}
+#sec-6 .container .all-cards{
+    display: flex;
+    justify-content: space-between;
+
+}
+#sec-6 .container .all-cards .cardss{
+    width: 32%;
+}
+#sec--6 .container footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sec--6 .container footer>div{
+    width: 50%;
+    text-align: left;
+}
+#sec--6 .container footer>form{
+    width: 50%;
+}
+#sec--6 .container footer div>h2{
+    font-size: 1.5rem;
+}
+#sec--6 .container footer div>h3{
+    font-size: 1.5rem;
+
+}
+
+#sec-7 .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#sec-7 .container>div{
+    width: 31%;
+}
+
+}
+/* Extra Large devices (Desktops */
+
+@media (min-width:1200px){
+    .container{ width: 1140px;}
+
+    #sec-3 .container .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #sec-3 .container .card{
+        width: 24%;
+    }
+    #sec-6 .container .cardss>div img:last-of-type{
+        padding: 2px;
+        transform: translate(175px , 30px);
+        -webkit-transform: translate(147px , 30px);
+        -moz-transform: translate(175px , 30px);
+        -ms-transform: translate(175px , 30px);
+        -o-transform: translate(175px , 30px);
+}
+#sec-7 .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#sec-7 .container>div{
+    width: 22%;
+}
+#sec-7 .container>div p , #sec-7 .container>div ul{
+    margin-left: 0;
+}
+
+}
+@media (min-width:1400px){
+    .container{ width: 1340px;}
+
+}
